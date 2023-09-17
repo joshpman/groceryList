@@ -1,7 +1,11 @@
 :root{
-    --background-color: #FFCC70;
-    --container-background: #22668D;
-    --shadow-color: #a8a8a8c5;
+    --background-color: #292828;
+    --container-background: #686767;
+    --shadow-color: #9e9b9bc5;
+}
+@font-face {
+    font-family: 'WebFont';
+    src: url('fonts/BebasNeue-Regular.ttf');
 }
  *{
     padding: 0;
@@ -17,7 +21,7 @@
 }
 .list__container{
     border-radius: 10%;
-    box-shadow: -.5vw 1vh 10px var(--shadow-color); 
+    box-shadow:0 0 20px var(--shadow-color); 
     background-color: var(--container-background);
     width: 70vw;
     height: 40vw;
@@ -30,12 +34,12 @@
 .list__title{
     font-size: 5vw;
     font-weight: bolder;
-    color: #071952;
-    font-family: 'Anton';
+    color: #0d277e;
+    font-family: 'WebFont';
 }
 
 .insert__wrapper{
-    padding-top: 1vh;
+    padding-top: 0vh; 
     width: 75%;
     display: flex;
     align-items: center;
@@ -95,9 +99,10 @@ img:hover{
 .clear__items{
     background-color: transparent;
     border: none;
-    color: rgb(156, 3, 3);
-    font-size: 20px;
-    font-weight: bolder;
+    color: rgb(255, 60, 60);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'WebFont'
 }
 .clear__items:hover{
     cursor: pointer;
