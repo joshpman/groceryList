@@ -44,12 +44,12 @@
 #item__input{
     font-size: 20px;
     width: 20vw;
-    height: 2vh;
+    height: 3vh;
     margin: 0;
     padding: 0;
     border-color: transparent;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
 }
 
 .item__list{
@@ -86,8 +86,8 @@ img:hover{
     width: 4vw;
     outline: none;
     border-color: transparent;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
 }
 #submit__button:hover{
     cursor: pointer;
